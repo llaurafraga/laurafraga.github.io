@@ -1,0 +1,110 @@
+* {
+    font-family: 'Montserrat', "Open Sans";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body {
+    background: linear-gradient(#ccdaeb, #dce3ec)
+}
+
+.imagem-alura {
+    display: flex;
+    margin: 30px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.titulo-primeiro {
+    margin: 0 0 0 210px;
+    font-size: 30px;
+}
+
+
+.input-texto {
+    font-size: 31px;
+    margin-top: 90px;
+    height: 240px;
+    border-radius: 10px;
+    border-color: black;
+    opacity: 0.8;
+    box-shadow: 3px 3px 0 0 #000;
+}
+
+.informacao {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.div-desaparece {
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkslateblue;
+    color:white;
+    border-radius: 10px;
+
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+.mensagem {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagens/.jpg");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 3px 3px 0 0 #000; 
+}
+
+.mensagem-box {
+    opacity: 0.8;
+}
+
+.copiar {
+    position: relative;
+    font-size: 25px;
+    margin-top: 330px;
+    margin-left: 205px;
+    border-radius: 10px;
+}
+
+.rodape {
+    background: linear-gradient(#e1ebf8, #e7dada);
+    font-size: .9rem;
+    margin: 15px 0 0 0;
+    padding: 1rem 2;
+    text-align: center;
+    width: 100%;
+
+}
+
+.texto-rodape, .texto-rodape-dois {
+    font-family: 'Montserrat', "Open Sans";
+    font-size: 15px;
+}
+
+
